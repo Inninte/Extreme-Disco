@@ -1,0 +1,30 @@
+[33mcommit 67131a3f40aee39f627d8c90d577610d7c7c69b0[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Merge: a6d32e7 253a0c2
+Author: Inninte <adrianyabut1998@gmail.com>
+Date:   Fri Nov 10 23:08:17 2017 -0500
+
+    rgb led control
+
+[33mcommit a6d32e76770ba55de328114ba99e8f25a395bcae[m
+Author: Inninte <adrianyabut1998@gmail.com>
+Date:   Fri Nov 10 23:06:15 2017 -0500
+
+    RBG Led Code
+
+[33mcommit 253a0c27b3bed23800fea83e3ca28946aa0c9b1d[m[33m ([m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Jeffrey Huang <jeff.huang62@gmail.com>
+Date:   Fri Nov 10 22:25:59 2017 -0500
+
+    initial LED sound testing
+
+[33mcommit 5126411327b2253a671410d8dfacff4497a8ce31[m
+Author: Jeffrey Huang <jeff.huang62@gmail.com>
+Date:   Fri Nov 10 21:36:50 2017 -0500
+
+    Update git ignore
+
+[33mcommit 2a3946a4abba0f8cd5ba2e6e73d9914ebff40f8a[m
+Author: Inninte <32006137+Inninte@users.noreply.github.com>
+Date:   Fri Nov 10 19:54:15 2017 -0500
+
+    Initial commit
