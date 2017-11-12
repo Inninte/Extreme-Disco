@@ -75,7 +75,6 @@ void BeepBoop() {
 void setup() {
   Serial.begin (9600);
   // Start off with the LED off.
-  setColourRgb(0,0,0);
   pinMode(p1, OUTPUT);
   pinMode(p2, OUTPUT);
   pinMode(p3, OUTPUT);
