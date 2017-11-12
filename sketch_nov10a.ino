@@ -68,7 +68,9 @@ void Trem(int pin, int note, int length, int rate) { // from someone else's gith
 
 void BeepBoop() {
   Glis(11, NOTE_C3, NOTE_C4, 5);
+  digitalWrite(p1,HIGH);
   delay(1000);
+  digitalWrite(p1,LOW);
   Trem(11, NOTE_C3, 1000, 30);
 }
 
