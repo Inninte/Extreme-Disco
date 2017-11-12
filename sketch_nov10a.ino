@@ -9,9 +9,7 @@ short minC = 0;
 float range = 1;
 int prev = 50;
 int studyPeriod = 10000;
-const int redPin = 10;
-const int greenPin = 11;
-const int bluePin = 9;
+const int buzzerPin = 8;
 
 const int p1 = 2;
 const int p2 =3;
@@ -67,11 +65,11 @@ void Trem(int pin, int note, int length, int rate) { // from someone else's gith
 }
 
 void BeepBoop() {
-  Glis(11, NOTE_C3, NOTE_C4, 5);
+  Glis(buzzerPin, NOTE_C3, NOTE_C4, 5);
   digitalWrite(p1,HIGH);
   delay(1000);
   digitalWrite(p1,LOW);
-  Trem(11, NOTE_C3, 1000, 30);
+  Trem(buzzerPin, NOTE_C3, 1000, 30);
 }
 
 void setup() {
